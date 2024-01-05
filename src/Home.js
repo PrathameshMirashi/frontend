@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import NavBar from "./components/NavBar";
-const API = "http://localhost:5000/api/products";
+const API = "https://e-comm-backend-qffw.onrender.com/api/products";
 const Home = () => {
   const [popproduct, setPopProcduct] = useState([]);
   // const [productCat, setProcductCat] = useState([]);
